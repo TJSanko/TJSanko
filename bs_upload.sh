@@ -1,6 +1,6 @@
 
 ### Automatic upload FASTq files to BaseSpace server
-### DATE: 22.03.2022   by Sathom
+### DATE: 22.03.2022   by TJSanko
 
 ### program parameters & help menu
 function help(){
@@ -42,7 +42,6 @@ done
 ### PROGRAM
 ###############
 ### checking system for BS programs
-#BASHRC=(`cat ~/.bashrc | grep 'bs' | cut -d ' ' -f2 | cut -d '=' -f2`)
 BASHRC=(`cat ~/.bashrc | grep 'bs' | cut -d ' ' -f2 ` `compgen -c | grep -P "\bbs\b"` `compgen -c | grep -P "\bbscmd\b"`)
 if [ ${#BASHRC[@]} -eq 0 ]; then echo -e "\nNo BaseSpace program installed\n" && exit; fi;
 
@@ -130,5 +129,5 @@ cd ${STARTDIR}
 exit
 
 ### search for empty files
-#for L in $(ls \*.gz); do if [[ `ll $L | sed -r \'s/\s+/|/g\' | cut -d '|' -f5` -le 20 ]]; then echo $L; fi; done;
+for L in $(ls \*.gz); do if [[ `ll $L | sed -r \'s/\s+/|/g\' | cut -d '|' -f5` -le 20 ]]; then echo $L; fi; done;
 
