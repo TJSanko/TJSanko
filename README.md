@@ -1,13 +1,13 @@
-########################################################################
-    Script for automatic upload of FASTq files to BaseSpace server/-s
+    ########################################################################
+	Script for automatic upload of FASTq files to BaseSpace server/-s
 
-    DATE:    22.03.2022
- VERSION: 1.0
- CREATOR: T.J.SANKO
- ADDRESS: Stellenbosch University, Tygerberg Campus,
-          Francie van Zijl Drive, Cape Town, South Africa
- CONTACT: tjsanko@sun.ac.za
-########################################################################
+	DATE:    22.03.2022
+	VERSION: 1.0
+	CREATOR: T.J.SANKO
+	ADDRESS: Stellenbosch University, Tygerberg Campus,
+			 Francie van Zijl Drive, Cape Town, South Africa
+	CONTACT: tjsanko@sun.ac.za
+	########################################################################
 
 1. Requirements
  Script is design to work on any linux machine with bash/shell language.
@@ -17,9 +17,9 @@
    i) download:
      mkdir -p ~/.local
      wget "https://launch.basespace.illumina.com/CLI/latest/amd64-linux/bs" -O ~/.local/bscmd
-     
+
      you might be required to use "sudo" infront and type the super user password (root permissions)
-     
+
    ii) adding alternative name and changing permissions to execute:
       ln -s ~/.local/bscmd ~/.local/bs && chmod +x ~/.local/bs* 
 
