@@ -34,8 +34,8 @@ while getopts l:s:p:t:T:P:h:help option; do
     t)       THR=${OPTARG};;
     T)      TIME=${OPTARG};;
     P)     PRJID=${OPTARG};;
-    h)   help && exit;;
-    help)help && exit;;
+    h)        help && exit;;
+    help)     help && exit;;
     \?) echo -e "\nError: Invalid option\n"; help && exit;;
   esac
 done
