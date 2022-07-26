@@ -1,6 +1,7 @@
 <b>########################################################################</b><br>
 <p><b>&emsp;&emsp;&emsp;&emsp;&nbsp;
 <i>Script for automatic upload of FASTq files to BaseSpace server/-s</i></b></p>
+<b>########################################################################</b><br><br>
 <b>DATE:</b>&emsp;&emsp;22.03.2022<br>
 <b>VERSION:</b>&nbsp;1.0<br>
 <b>CREATOR:</b>&nbsp;T.J.SANKO<br>
@@ -8,7 +9,7 @@
 &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
 Francie van Zijl Drive, Cape Town, South Africa<br>
 <b>CONTACT:</b>&nbsp;tjsanko@sun.ac.za<br>
-<b>########################################################################</b><br>
+
 <br>
 <ol>
 <p><b><li>Requirements</li></b></p>
