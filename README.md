@@ -38,7 +38,7 @@ if you want to authenticate connection to the <i>European (EUC1)</i> server:<br>
 Not using "<i>-c</i>" option sets the server address to default (USA server)<br><br>
 
 <li> setup of aliases and PATHs for the program</li>
-<code>echo 'alias bs=" ~/.local/bs"'       >> ~/.bashrc<br></code>
+<code>echo 'alias bs=" ~/.local/bs"'       >> ~/.bashrc</code><br>
 <code>echo 'alias bscmd=" ~/.local/bscmd"' >> ~/.bashrc</code><br><br>
 
 and for the script:<br>
@@ -61,19 +61,12 @@ required:<pre>
     l         list with files (run & LIMS numbers) in format: "RUNXXX,K0YYYYY"</pre>
 optional:<pre>
     s         server name [eu|us|usa] (default: USA)
-
     L         List all projects available"
-
     p         path to FASTq files (default: current location)
-
     t         number of threds to use (default: t=4)
-
     T         time frame to look for project ID in hours (default: 24h)
-
     P         project ID number (default: obtained from the server based on the time frame in -t parameter). 
               ! only 1st entry from the list will be used
-
     h         prints this help
-
     help      prints this help
 </pre>
