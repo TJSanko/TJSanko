@@ -12,9 +12,9 @@ Francie van Zijl Drive, Cape Town, South Africa<br>
 <ol>
 <p><b><li>Requirements</li></b></p>
 Script is design to work on any linux machine with bash/shell language. It was tested on CentOS7 and Ubuntu SMP 20.04.1.<br>
-<u>Requires active BasespaceCLI program on the machine with</u><br><br>
+Requires active BasespaceCLI program on the machine with<br><br>
 
-Installation of BasespaceCLI on linux machines
+<b>Installation of BasespaceCLI on linux machines:</b>
 <ol start='i'>
 <li> download:</li>
 <i>you might be required to use "sudo" infront and type the super user password (root permissions)</i><br><br>
@@ -45,7 +45,7 @@ and for the script:<br>
 <code>echo 'export PATH=$PATH:'/path_to_script_bs_upload/' >> ~/.bash_profile</code><br><br></ol>
 
 More on installation (eg. on Mac or Windows) is available on Illumina website:<br>
-<a>https://developer.basespace.illumina.com/docs/content/documentation/cli/cli-overview</a><br>
+<a>https://developer.basespace.illumina.com/docs/content/documentation/cli/cli-overview</a><br><br>
 
 <p><b><li> Syntax:</li></b></p>
 <code>bs_upload.sh [options]</code><br><br>
